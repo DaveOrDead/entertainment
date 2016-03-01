@@ -1,0 +1,19 @@
+/* ============================================================================
+   COMPONENTS -> PAGE HEADER
+   ========================================================================= */
+
+
+/**
+* Base.
+*/
+
+.c-page-header {
+    background-color: $g-color-orange-500;
+    padding-bottom: rem($shell-g-spacing-large);
+}
+
+@media all and (min-width: 50em) {
+    .c-page-header {
+        padding-bottom: 0;
+    }
+}

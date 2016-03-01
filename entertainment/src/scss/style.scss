@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/**
+ * Styles for Sainsburys Responsive Test.
+ */
+
+
+/**
+ * Shell overrides.
+ */
+
+ @import "settings";
+
+
+/**
+ * Shell library.
+ */
+
+@import "../../../node_modules/shell-csslib/src/shell";
+
+
+/**
+ * Components.
+ */
+
+@import "components/c-bulleted-list";
+
+@import "components/c-button";
+
+@import "components/c-callout";
+
+@import "components/c-footer";
+
+@import "components/c-icon";
+
+@import "components/c-logo";
+
+@import "components/c-navigation";
+
+@import "components/c-page-header";
+
+@import "components/c-social-icons";
+
+
+/**
+ * Helpers.
+ */
+
+ @import "helpers";
+
+

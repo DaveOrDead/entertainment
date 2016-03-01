@@ -1,0 +1,37 @@
+/* ============================================================================
+   COMPONENTS -> BULLETED LIST
+   ========================================================================= */
+
+/**
+* Settings.
+*/
+
+$c-bulleted-list-bullet-size: 8;
+
+$c-bulleted-list-bullet-color: $g-color-orange-500;
+
+
+/**
+* Base.
+*/
+
+.c-bulleted-list__item {
+    padding-left: rem($shell-g-spacing-small);
+    position: relative;
+}
+
+
+/**
+* Bullets.
+*/
+
+.c-bulleted-list__item::before {
+    background-color: $c-bulleted-list-bullet-color;
+    border-radius: 50%;
+    content: "";
+    height: rem($c-bulleted-list-bullet-size);
+    left: 0;
+    position: absolute;
+    top: rem(7);
+    width: rem($c-bulleted-list-bullet-size);
+}

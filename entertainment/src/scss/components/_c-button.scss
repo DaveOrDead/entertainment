@@ -1,0 +1,19 @@
+/* ============================================================================
+   COMPONENTS -> BUTTON
+   ========================================================================= */
+
+
+/**
+* Base.
+*/
+
+.c-button {
+    color: $shell-g-color-white;
+    display: block;
+    margin: 0 auto;
+    padding: rem($shell-g-spacing-small) rem($shell-g-spacing-base);
+}
+
+.c-button--hollow {
+    border: 1px solid $shell-g-color-white;
+}

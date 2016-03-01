@@ -1,0 +1,57 @@
+/* ============================================================================
+   HELPERS
+   ========================================================================= */
+
+.is-hidden--desktop {
+    display: block;
+}
+
+.is-hidden--mobile {
+    display: none;
+}
+
+.l-order-container {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        order: 0;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+
+@media all and (min-width: 50em) {
+
+    aside ul {
+        padding-top: rem($shell-g-spacing-huge);
+    }
+
+    .is-hidden--desktop {
+        display: none;
+    }
+
+    .is-hidden--mobile {
+        display: block;
+    }
+
+    .l-grid__item--8-col-on-desktop {
+        width: 66.6666%
+    }
+
+    .l-grid__item--6-col-on-desktop {
+        width: 50%
+    }
+
+    .l-grid__item---4-col {
+        width: 33.3333%;
+    }
+
+    .l-order-container {
+        display: block;
+    }
+}
+

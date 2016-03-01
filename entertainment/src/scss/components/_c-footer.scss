@@ -1,0 +1,19 @@
+/* ============================================================================
+   COMPONENTS -> FOOTER
+   ========================================================================= */
+
+/**
+* Settings.
+*/
+
+$c-footer-background-color: $g-color-grey-800;
+
+
+/**
+* Base.
+*/
+
+.c-footer {
+    background-color: $c-footer-background-color;
+    padding: rem($shell-g-spacing-base);
+}

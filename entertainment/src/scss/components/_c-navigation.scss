@@ -1,0 +1,43 @@
+/* ============================================================================
+   COMPONENTS -> NAVIGATION
+   ========================================================================= */
+
+/**
+* Settings.
+*/
+
+$c-navigation-ends-padding: $shell-g-spacing-small;
+
+$c-navigation-active-color: $shell-g-color-text-base;
+
+
+/**
+* Base.
+*/
+
+.c-navigation {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/**
+* Links.
+*/
+
+.c-navigation a {
+    color: $shell-g-color-white;
+    display: inline-block;
+    padding: rem($c-navigation-ends-padding) 0;
+}
+
+
+/**
+* State: Active.
+*/
+
+.c-navigation a.is-active {
+    color: $c-navigation-active-color;
+    background-color: $shell-g-color-white;
+    padding: rem($c-navigation-ends-padding) rem($shell-g-spacing-base);
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Entertainment_Challenge",
+  "version": "1.0.0",
+  "description": "Entertainment",
+  "author": "@davislurve",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o entertainment/assets/css entertainment/src/scss/style.scss",
+    "autoprefixer": "postcss -u autoprefixer -r entertainment/assets/css/style.css",
+    "build": "npm run scss && npm run autoprefixer",
+    "watch:css": "onchange 'entertainment/src/scss/**.scss' -- npm run build:css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.3",
+    "node-sass": "^3.4.2",
+    "onchange": "^2.0.0",
+    "postcss-cli": "^2.5.1",
+    "shell-csslib": "^0.5.0"
+  }
+}

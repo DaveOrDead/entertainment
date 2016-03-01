@@ -1,0 +1,29 @@
+/* ============================================================================
+   COMPONENTS -> LOGO
+   ========================================================================= */
+
+/**
+* Base.
+*/
+
+.c-logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.c-logo__text {
+    color: $shell-g-color-white;
+    margin-left: rem($shell-g-spacing-tiny);
+}
+
+
+/**
+* Media Queries.
+*/
+
+@media all and (min-width: 50em) {
+    .c-logo {
+        justify-content: flex-start;
+    }
+}

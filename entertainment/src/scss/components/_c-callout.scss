@@ -1,0 +1,27 @@
+/* ============================================================================
+   COMPONENTS -> CALLOUT
+   ========================================================================= */
+
+
+/**
+* Settings.
+*/
+
+$c-callout-spacing: $shell-g-spacing-tiny;
+
+
+/**
+* Base.
+*/
+
+.c-callout {
+    order: 1
+}
+
+@media all and (min-width: 50em) {
+    .c-callout {
+        float: right;
+        padding: 0 0 rem($c-callout-spacing) rem($c-callout-spacing);
+        shape-outside: padding-box;
+    }
+}

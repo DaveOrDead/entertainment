@@ -1,0 +1,49 @@
+/* ============================================================================
+   SETTINGS
+   ========================================================================= */
+
+/* 1. Colours (Global)
+   ========================================================================= */
+
+
+// Greys
+$g-color-grey-800: #333;
+
+$g-color-grey-500: #636e7b;
+
+
+
+// Blues
+$g-color-blue-300: #5bc0de;
+
+
+// Oranges
+$g-color-orange-500: #eea445;
+
+
+/**
+ * Text.
+ */
+
+// Base (global text colour)
+$shell-g-color-text-base: $g-color-grey-500;
+
+
+/**
+ * Links.
+ */
+
+$shell-g-color-link: $g-color-blue-300;
+
+$shell-base-link-text-decoration: none;
+
+/**
+ * Links.
+ */
+
+ img {
+    width: 100%;
+ }
+
+
+
